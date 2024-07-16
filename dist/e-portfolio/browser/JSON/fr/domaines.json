@@ -1,0 +1,188 @@
+{
+  "Programation": {
+    "nom": "Programmation",
+    "competences": [
+      {
+        "nom": "Go / Golang",
+        "icon": "fab fa-golang"
+      },
+      {
+        "nom": "Python",
+        "icon": "fab fa-python"
+      },
+      {
+        "nom": "Typescript",
+        "icon": "fas fa-code-branch"
+      },
+      {
+        "nom": "Javascript",
+        "icon": "fab fa-js"
+      },
+      {
+        "nom": "NodeJS",
+        "icon": "fab fa-node-js"
+      },
+      {
+        "nom": "Angular",
+        "icon": "fab fa-angular"
+      },
+      {
+        "nom": "C",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "nom": "Java",
+        "icon": "fab fa-java"
+      },
+      {
+        "nom": "PHP",
+        "icon": "fab fa-php"
+      },
+      {
+        "nom": "Django / Flask",
+        "icon": "fas fa-python"
+      },
+      {
+        "nom": "HTML5 / CSS3",
+        "icon": "fab fa-html5"
+      },
+      {
+        "nom": "Vimscript",
+        "icon": "fas fa-file-code"
+      }
+    ],
+    "icon": "fas fa-laptop-code"
+  },
+  "DevOps": {
+    "nom": "DevOps",
+    "competences": [
+      {
+        "nom": "Docker",
+        "icon": "fab fa-docker"
+      },
+      {
+        "nom": "Kubernetes",
+        "icon": "fas fa-ship"
+      },
+      {
+        "nom": "Jenkins",
+        "icon": "fas fa-robot"
+      },
+      {
+        "nom": "Git / GitHub / GitLab / Bitbucket",
+        "icon": "fab fa-git"
+      },
+      {
+        "nom": "Ansible",
+        "icon": "fas fa-toolbox"
+      },
+      {
+        "nom": "Terraform",
+        "icon": "fas fa-seedling"
+      },
+      {
+        "nom": "Github Actions",
+        "icon": "fab fa-github"
+      },
+      {
+        "nom": "CI/CD",
+        "icon": "fas fa-code-branch"
+      },
+      {
+        "nom": "GitLab CI",
+        "icon": "fab fa-gitlab"
+      },
+      {
+        "nom": "ArgoCD",
+        "icon": "fas fa-code"
+      },
+      {
+        "nom": "Helm",
+        "icon": "fas fa-anchor"
+      },
+      {
+        "nom": "Amazon Web Service / AWS",
+        "icon": "fab fa-aws"
+      },
+      {
+        "nom": "Google Cloud Platform / GCP",
+        "icon": "fab fa-google"
+      }
+    ],
+    "icon": "fas fa-server"
+  },
+  "System": {
+    "nom": "Systèmes",
+    "competences": [
+      {
+        "nom": "Cloud (Amazon Web Service / AWS, Google Cloud / GCP, Azure ...)",
+        "icon": "fas fa-cloud"
+      },
+      {
+        "nom": "Windows",
+        "icon": "fab fa-windows"
+      },
+      {
+        "nom": "Unix / Linux",
+        "icon": "fas fa-linux"
+      },
+      {
+        "nom": "Mac",
+        "icon": "fab fa-apple"
+      },
+      {
+        "nom": "LFS (Linux From Scratch)",
+        "icon": "fas fa-terminal"
+      },
+      {
+        "nom": "Protocol (HTTP, FTP, SMTP, DNS, DHCP, SSH, SSL, TLS, VPN ...)",
+        "icon": "fas fa-network-wired"
+      }
+    ],
+    "icon": "fas fa-cogs"
+  },
+  "Base de données": {
+    "nom": "Base de données",
+    "competences": [
+      {
+        "nom": "SQL (MySQL, PostgreSQL, Oracle, SQL Server ...)",
+        "icon": "fas fa-database"
+      },
+      {
+        "nom": "NoSQL (MongoDB, JSON, XML, YAML ...)",
+        "icon": "fas fa-database"
+      }
+    ],
+    "icon": "fas fa-database"
+  },
+  "Outils": {
+    "nom": "Outils",
+    "competences": [
+      {
+        "nom": "Nmap",
+        "icon": "fas fa-network-wired"
+      },
+      {
+        "nom": "Wireshark",
+        "icon": "fas fa-fish"
+      },
+      {
+        "nom": "Metasploit",
+        "icon": "fas fa-user-secret"
+      },
+      {
+        "nom": "Serveur Apache / Nginx",
+        "icon": "fas fa-server"
+      },
+      {
+        "nom": "Postman",
+        "icon": "fas fa-paper-plane"
+      },
+      {
+        "nom": "Wamp / Xamp / Mamp / LAMP",
+        "icon": "fas fa-server"
+      }
+    ],
+    "icon": "fas fa-tools"
+  }
+}
