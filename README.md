@@ -1,27 +1,26 @@
-# EPortfolio
+﻿# paulpp78.github.io
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Welcome to my ePortfolio hosted on GitHub!
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This ePortfolio showcases my projects, skills, and contact information.
 
-## Code scaffolding
+## One page
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Presentation:** Learn more about me and my background.
+  Explore the projects I've worked on and the skills I possess.
+  Contact me and download my CV.
 
-## Build
+## Link
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [index](https://paulpp78.github.io/index.html)
 
-## Running unit tests
+## Contact
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+If you would like to get in touch, feel free to reach out via the contact form provided on the website or through my LinkedIn and GitHub profiles:
 
-## Running end-to-end tests
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paul-perigault)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/paulpp78)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Thank you for visiting my ePortfolio!

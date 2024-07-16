@@ -1,0 +1,94 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; /* Alignement des cartes */
+}
+
+.section-title {
+  font-size: 2.5em;
+  background-image: linear-gradient(to right, #ff7a00, #ff0169);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.card {
+  flex: 1 1 calc(50% - 20px);
+  background: linear-gradient(to bottom right, #171717, #282828);
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.75em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.card-title::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 3px;
+  background: linear-gradient(to right, #ff7a00, #ff0169);
+  margin: 0.5em auto;
+  border-radius: 5px;
+}
+
+.card-title i {
+  margin-right: 10px;
+  color: #ff7a00;
+}
+
+.competence-list {
+  margin-top: 1em;
+}
+
+.competence-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transition: background 0.3s, opacity 0.3s;
+}
+
+.competence-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  color: #ff7a00;
+}
+
+.card-text {
+  color: white;
+  font-size: 1em;
+}

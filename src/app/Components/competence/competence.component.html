@@ -1,0 +1,17 @@
+<h2 class="section-title"><strong>Compétences</strong></h2>
+<div class="container">
+  <div class="card" *ngFor="let domaine of domaines">
+    <div class="card-body">
+      <h3 class="card-title">
+        <i *ngIf="domaine.icon" [class]="domaine.icon"></i>
+        <strong>{{ domaine.nom }}</strong>
+      </h3>
+      <div class="competence-list">
+        <div *ngFor="let competence of domaine.competences; let i = index" class="competence-item">
+          <i *ngIf="competence.icon" [class]="competence.icon + ' icon'"></i>
+          <p class="card-text"><strong>{{ competence.nom }}</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

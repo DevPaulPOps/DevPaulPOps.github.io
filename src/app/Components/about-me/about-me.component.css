@@ -1,0 +1,173 @@
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 20em;
+  height: 30em;
+  background: linear-gradient(to bottom right, #171717, #282828);
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  margin: 1em 0;
+
+}
+
+.card .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.9em;
+  margin: 1em 0;
+}
+
+.card .img {
+  width: 10em;
+  height: 10em;
+  background: white;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.social-login-icons a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.social-login-icons a:hover {
+  color: red;
+}
+
+.download  {
+  padding: 1em 2em;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff7a00, #ff0169);
+  color: white;
+  transition: .4s ease-in-out;
+  margin: auto;
+}
+
+
+.download:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+/******************/
+
+.social-login-icons {
+  margin: 1.5em 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+.social-login-icons svg {
+  width: 40px;
+}
+
+.social-icon-1,
+.social-icon-2,
+.social-icon-3,
+.social-icon-4 {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: 0.4s;
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon-1 i {
+  color: rgba(175, 7, 7, 0.899);
+  font-size: 50px;
+
+}
+
+.social-icon-2 i {
+  color: skyblue;
+  font-size: 50px;
+
+}
+
+.social-icon-3 i {
+  color: rgb(58 58 227 / 87%);
+  font-size: 50px;
+
+}
+
+.social-login-icons {
+  margin: 30px 0px;
+}
+
+.socialcontainer {
+  height: 50px;
+  overflow: hidden;
+}
+
+.social-icon-1 {
+  transition-duration: 0.4s;
+  background-color: rgb(0, 0, 0);
+}
+
+.socialcontainer:hover .social-icon-1 {
+  transform: translateY(-50px);
+}
+
+.social-icon-2 {
+  transition-duration: 0.4s;
+  background: linear-gradient(
+    72.44deg,
+    #ff7a00 11.92%,
+    #ff0169 51.56%,
+    #d300c5 85.69%
+  );
+}
+
+.socialcontainer:hover .social-icon-2 {
+  transform: translateY(-50px);
+}
+
+.social-icon-3 {
+  transition-duration: 0.4s;
+  background: #316ff6;
+}
+
+.socialcontainer:hover .social-icon-3 {
+  transform: translateY(-50px);
+}
+
+.social-icon-4 {
+  transition-duration: 0.4s;
+  background: linear-gradient(
+    180deg,
+    rgba(129, 34, 144, 1) 0%,
+    rgba(77, 34, 124, 1) 91%
+  );
+}
+
+.socialcontainer:hover .social-icon-4 {
+  transform: translateY(-50px);
+}
+
