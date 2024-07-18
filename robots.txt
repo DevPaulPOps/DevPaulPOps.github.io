@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /e2e/
+Disallow: /assets/
+Allow: /
+Sitemap: https://paulpp78.github.io/sitemap.xml
