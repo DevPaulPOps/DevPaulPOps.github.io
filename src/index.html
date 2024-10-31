@@ -1,77 +1,229 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>EPortfolio - Paul Perigault | Futur Ingénieur en DevOps et Cloud</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="/image/logo.png">
-  <link rel="canonical" href="https://paulpp78.github.io/">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WXQF266V");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+      EPortfolio - Paul Perigault | Ingénieur DevOps et Cloud - Expert en
+      Infrastructure as Code
+    </title>
+    <base href="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/x-icon" href="/image/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/image/apple-touch-icon.png"
+    />
+    <!--<link rel="manifest" href="/manifest.json" />-->
+    <link rel="canonical" href="https://devpaulpops.github.io/" />
 
+    <!-- Preload des ressources critiques -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      as="style"
+    />
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Portfolio de Paul Perigault, Futur Ingénieur en DevOps et Cloud. Découvrez mes compétences en Go, Terraform, Kubernetes, et plus encore.">
-  <meta name="keywords" content="Portfolio, DevOps, Cloud, Angular, Terraform, Kubernetes, Golang, Ingénieur, Git, AWS, Google Cloud, CI/CD, Docker, Architect Cloud">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="Paul Perigault">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="EPortfolio - Paul Perigault">
+    <!-- Chargement des styles -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-  <!-- Open Graph meta tags -->
-  <meta property="og:title" content="EPortfolio - Paul Perigault">
-  <meta property="og:description" content="Portfolio de Paul Perigault, Futur Ingénieur en DevOps et Cloud. Découvrez mes compétences en Go, Terraform, Kubernetes, et plus encore.">
-  <meta property="og:image" content="https://paulpp78.github.io/image.jpg">
-  <meta property="og:url" content="https://paulpp78.github.io/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="fr_FR">
-  <meta property="og:site_name" content="EPortfolio de Paul Perigault">
+    <!-- SEO Meta Tags améliorés -->
+    <meta
+      name="description"
+      content="Portfolio de Paul Perigault, Ingénieur DevOps et Cloud spécialisé en Infrastructure as Code. Expert en Go, Terraform, Kubernetes, AWS et Google Cloud. Découvrez mes projets et réalisations en matière d'automatisation et d'architecture cloud."
+    />
+    <meta
+      name="keywords"
+      content="Paul Perigault, DevOps, Cloud Computing, Infrastructure as Code, Angular, Terraform, Kubernetes, Golang, AWS, Google Cloud, CI/CD, Docker, Cloud Architecture, Automatisation, GitOps, SRE, Monitoring, Observabilité"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="author" content="Paul Perigault" />
+    <meta name="copyright" content="Paul Perigault" />
+    <meta name="application-name" content="EPortfolio Paul Perigault" />
 
-  <!-- Twitter Card meta tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="EPortfolio - Paul Perigault">
-  <meta name="twitter:description" content="Portfolio de Paul Perigault, Futur Ingénieur en DevOps et Cloud. Découvrez mes compétences en Go, Terraform, Kubernetes, et plus encore.">
-  <meta name="twitter:image" content="https://paulpp78.github.io/image.jpg">
-  <meta name="twitter:site" content="@paulpp78">
-  <meta name="twitter:creator" content="@paulpp78">
+    <!-- Performance -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval';"
+    />
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000" />
 
-  <!-- Dublin Core Metadata -->
-  <meta name="dcterms.title" content="EPortfolio - Paul Perigault">
-  <meta name="dcterms.creator" content="Paul Perigault">
-  <meta name="dcterms.subject" content="Portfolio, DevOps, Cloud, Angular, Terraform, Kubernetes, Golang, Ingénieur">
-  <meta name="dcterms.description" content="Portfolio de Paul Perigault, Futur Ingénieur en DevOps et Cloud. Découvrez mes compétences en Go, Terraform, Kubernetes, et plus encore.">
-  <meta name="dcterms.publisher" content="Paul Perigault">
-  <meta name="dcterms.contributor" content="Paul Perigault">
-  <meta name="dcterms.date" content="2024-07-09">
-  <meta name="dcterms.type" content="Text">
-  <meta name="dcterms.format" content="text/html">
-  <meta name="dcterms.identifier" content="https://paulpp78.github.io/">
-  <meta name="dcterms.language" content="fr">
+    <!-- PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Paul Perigault Portfolio"
+    />
 
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "Paul Perigault",
-      "url": "https://paulpp78.github.io/",
-      "sameAs": [
-        "https://twitter.com/paulpp78",
-        "https://www.linkedin.com/in/paulperigault",
-        "https://github.com/paulpp78"
-      ],
-      "jobTitle": "Futur Ingénieur en DevOps et Cloud",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "WeVii"
-      },
-      "description": "Portfolio de Paul Perigault, Futur Ingénieur en DevOps et Cloud. Découvrez mes compétences en Go, Terraform, Kubernetes, et plus encore.",
-      "image": "https://paulpp78.github.io/image.jpg"
-    }
-  </script>
+    <!-- Open Graph meta tags améliorés -->
+    <meta property="og:site_name" content="Portfolio Paul Perigault" />
+    <meta
+      property="og:title"
+      content="Paul Perigault | Ingénieur DevOps et Cloud - Expert Infrastructure as Code"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez le portfolio de Paul Perigault, Ingénieur DevOps passionné par l'Infrastructure as Code et l'automatisation cloud. Expertise en Go, Terraform, Kubernetes, et architecture cloud moderne."
+    />
+    <meta
+      property="og:image"
+      content="https://devpaulpops.github.io/image.jpg"
+    />
+    <meta property="og:image:alt" content="Paul Perigault - Ingénieur DevOps" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://devpaulpops.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
 
-</head>
-<body>
-<app-root></app-root>
-</body>
+    <!-- Twitter Card meta tags améliorés -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Paul Perigault | Ingénieur DevOps et Cloud - Expert Infrastructure as Code"
+    />
+    <meta
+      name="twitter:description"
+      content="Découvrez le portfolio de Paul Perigault, Ingénieur DevOps passionné par l'Infrastructure as Code et l'automatisation cloud. Expertise en Go, Terraform, Kubernetes, et architecture cloud moderne."
+    />
+    <meta
+      name="twitter:image"
+      content="https://devpaulpops.github.io/image.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Paul Perigault - Ingénieur DevOps"
+    />
+
+    <!-- Dublin Core Metadata amélioré -->
+    <meta
+      name="dcterms.title"
+      content="Portfolio Paul Perigault - Ingénieur DevOps et Cloud"
+    />
+    <meta name="dcterms.creator" content="Paul Perigault" />
+    <meta
+      name="dcterms.subject"
+      content="DevOps, Cloud Computing, Infrastructure as Code"
+    />
+    <meta
+      name="dcterms.description"
+      content="Portfolio professionnel présentant l'expertise de Paul Perigault en DevOps, Cloud Computing et Infrastructure as Code"
+    />
+    <meta name="dcterms.publisher" content="Paul Perigault" />
+    <meta name="dcterms.contributor" content="Paul Perigault" />
+    <meta name="dcterms.date" content="2024-07-09" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.format" content="text/html" />
+    <meta name="dcterms.identifier" content="https://devpaulpops.github.io/" />
+    <meta name="dcterms.language" content="fr" />
+    <meta name="dcterms.coverage" content="World" />
+    <meta
+      name="dcterms.rights"
+      content="Tous droits réservés © 2024 Paul Perigault"
+    />
+
+    <!-- Schema.org amélioré -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Paul Perigault",
+        "url": "https://devpaulpops.github.io/",
+        "sameAs": [
+          "https://www.linkedin.com/in/paulperigault",
+          "https://github.com/DevPaulPOps"
+        ],
+        "jobTitle": "Ingénieur DevOps et Cloud",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "WeVii"
+        },
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "[Votre École]"
+        },
+        "description": "Ingénieur DevOps et Cloud spécialisé en Infrastructure as Code, avec une expertise en Go, Terraform, Kubernetes, et architectures cloud modernes.",
+        "image": "https://devpaulpops.github.io/image.jpg",
+        "nationality": "French",
+        "knowsLanguage": ["fr", "en"],
+        "knowsAbout": [
+          "DevOps",
+          "Cloud Computing",
+          "Infrastructure as Code",
+          "Kubernetes",
+          "Terraform",
+          "Golang",
+          "AWS",
+          "Google Cloud",
+          "CI/CD",
+          "Docker"
+        ],
+        "skills": [
+          {
+            "@type": "DefinedTerm",
+            "termCode": "DevOps",
+            "description": "Expertise en pratiques DevOps et automatisation"
+          },
+          {
+            "@type": "DefinedTerm",
+            "termCode": "Cloud",
+            "description": "Architecture et déploiement cloud"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WXQF266V"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <app-root></app-root>
+  </body>
 </html>
