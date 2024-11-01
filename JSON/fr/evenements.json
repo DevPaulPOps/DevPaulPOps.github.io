@@ -8,7 +8,10 @@
     "competences": [
       "Html/CSS",
       "Langage C",
-      "Python"
+      "Python",
+      "Travail d'équipe",
+      "Script Shell",
+      "Git"
     ]
   },
   {
@@ -42,7 +45,19 @@
       "Docker",
       "Git",
       "Réseau",
-      "Sécurité"
+      "Sécurité",
+      "Méthodes agiles",
+      "Scrum",
+      "Conception de bases de données",
+      "DevOps",
+      "Intégration continue et livraison continue (CI/CD)",
+      "TypeScript",
+      "Node.js",
+      "Kubernetes",
+      "AWS",
+      "GCP",
+      "Vim",
+      "Linux"
     ]
   },
   {
@@ -59,7 +74,16 @@
       "GitHub",
       "Terraform",
       "Kubernetes",
-      "Sécurité"
+      "Sécurité",
+      "Cloud Computing",
+      "CI/CD",
+      "AWS",
+      "GCP",
+      "TypeScript",
+      "Administration de bases de données",
+      "Script Shell",
+      "Linux",
+      "Java"
     ]
   },
   {
@@ -69,7 +93,19 @@
     "dateFin": "Juin 2027",
     "lieu": "ESIEA Paris",
     "competences": [
-      "A définir"
+      "Sécurité des systèmes d'information",
+      "Network Security",
+      "DevOps",
+      "Responsabilité sociétale des entreprises (RSE)",
+      "Python",
+      "Git",
+      "C",
+      "SQL",
+      "Linux",
+      "Administration de bases de données",
+      "Script Shell",
+      "Vim",
+      "Java"
     ]
   }
 ]
