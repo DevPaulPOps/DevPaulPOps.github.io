@@ -3,9 +3,10 @@ import { Domaines } from "../../models/domaines";
 import { DomainesService } from "../../Services/domaines/domaines.service";
 
 @Component({
-  selector: 'app-competence',
-  templateUrl: './competence.component.html',
-  styleUrls: ['./competence.component.css']
+    selector: 'app-competence',
+    templateUrl: './competence.component.html',
+    styleUrls: ['./competence.component.css'],
+    standalone: false
 })
 export class CompetenceComponent implements OnInit {
   domaines: Domaines[] = [];

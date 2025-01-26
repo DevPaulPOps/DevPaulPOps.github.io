@@ -3,9 +3,10 @@ import {Evenements} from "../../models/evenements";
 import {EvenementService} from "../../Services/evenements/evenement.service";
 
 @Component({
-  selector: 'app-evenements',
-  templateUrl: './evenements.component.html',
-  styleUrl: './evenements.component.css'
+    selector: 'app-evenements',
+    templateUrl: './evenements.component.html',
+    styleUrl: './evenements.component.css',
+    standalone: false
 })
 export class EvenementsComponent implements OnInit {
   evenements: Evenements[] = [];
