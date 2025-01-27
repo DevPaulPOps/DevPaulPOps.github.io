@@ -1,16 +1,50 @@
 <footer class="footer">
-  <div class="container">
-    <div class="footer-content">
-      <h5 class="footer-title">Contactez-moi :</h5>
-      <p class="footer-contact">
-        <a href="mailto:perigault.paul@gmail.com" class="text-warning">perigault.paul&#64;gmail.com</a>
-      </p>
-      <p class="footer-open-to">Ouvert à toutes propositions de freelance, emploi ou alternance.</p>
+  <div class="footer-content">
+    <!-- Section Contact -->
+    <div class="contact-section">
+      <div class="heading">
+        <i class="pi pi-envelope"></i>
+        <h3>Contact</h3>
+      </div>
+
+      <button class="email-btn" (click)="copyEmail()" pRipple>
+        <i class="pi pi-copy"></i>
+        <span>{{ email }}</span>
+      </button>
     </div>
-    <div class="footer-official">
-      <p class="footer-legal small">
-        Site réalisé en 2024.
-      </p>
+
+    <!-- Section Disponibilité -->
+    <div class="status-section">
+      <div class="status-banner">
+        <i class="pi pi-check-circle"></i>
+        <p>Disponible pour des opportunités</p>
+      </div>
+    </div>
+
+    <!-- Section Réseaux -->
+    <div class="social-section">
+      <div class="social-links">
+        <button *ngFor="let link of socialLinks"
+                class="social-btn"
+                (click)="openLink(link.url)"
+
+                pRipple>
+          <i [class]="link.icon"></i>
+          <span class="btn-label">{{ link.name }}</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Section Copyright -->
+    <div class="copyright-section">
+      <div class="copyright-content">
+        <div class="tech-stack">
+          <span>Réalisé avec</span>
+          <i class="pi pi-heart"></i>
+          <span>par Paul Perigault</span>
+        </div>
+        <p>© {{ currentYear }} Paul Perigault</p>
+      </div>
     </div>
   </div>
 </footer>

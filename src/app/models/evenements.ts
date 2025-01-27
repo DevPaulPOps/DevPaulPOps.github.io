@@ -2,8 +2,8 @@ export interface Evenements {
   showSkills: boolean;
   nom: string;
   description: string;
-  dateDebut: String;
-  dateFin: String;
+  dateDebut: string;
+  dateFin: string;
   lieu: string;
   competences: string[];
 }

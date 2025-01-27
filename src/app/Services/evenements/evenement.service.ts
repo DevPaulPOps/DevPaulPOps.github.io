@@ -1,15 +1,17 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import {Observable} from "rxjs";
-import { Evenements } from '../../models/evenements';
-@Injectable({
-  providedIn: 'root'
-})
-export class EvenementService {
-  URL: string = '/JSON/fr/evenements.json';
-  constructor(private http: HttpClient) { }
+// src/app/services/evenements/evenement.service.ts
+import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {Evenements} from '../../models/evenements';
+import {BaseApiService} from '../../core/services/base-api.service';
+import {API_CONFIG} from '../../core/config/api.config';
+import {Observable} from 'rxjs';
 
-  public getEvenements(): Observable<Evenements[]> {
-    return this.http.get<Evenements[]>(this.URL);
+@Injectable({
+  providedIn: 'root',
+  deps: [HttpClient]
+})
+export class EvenementService extends BaseApiService<Evenements> {
+  constructor(http: HttpClient) {
+    super(http, `${API_CONFIG.baseUrl}${API_CONFIG.endpoints.evenements}`);
   }
 }
