@@ -4,185 +4,185 @@
     "competences": [
       {
         "nom": "Go / Golang",
-        "icon": "fab fa-golang"
+        "icon": "pi pi-code"
       },
       {
         "nom": "Python",
-        "icon": "fab fa-python"
+        "icon": "pi pi-code"
       },
       {
         "nom": "Typescript",
-        "icon": "fas fa-code-branch"
+        "icon": "pi pi-code"
       },
       {
         "nom": "Javascript",
-        "icon": "fab fa-js"
+        "icon": "pi pi-code"
       },
       {
         "nom": "NodeJS",
-        "icon": "fab fa-node-js"
+        "icon": "pi pi-server"
       },
       {
         "nom": "Angular",
-        "icon": "fab fa-angular"
+        "icon": "pi pi-cog"
       },
       {
         "nom": "C",
-        "icon": "fas fa-cogs"
+        "icon": "pi pi-code"
       },
       {
         "nom": "Java",
-        "icon": "fab fa-java"
+        "icon": "pi pi-code"
       },
       {
         "nom": "PHP",
-        "icon": "fab fa-php"
+        "icon": "pi pi-code"
       },
       {
         "nom": "Django / Flask",
-        "icon": "fas fa-python"
+        "icon": "pi pi-server"
       },
       {
         "nom": "HTML5 / CSS3",
-        "icon": "fab fa-html5"
+        "icon": "pi pi-file-edit"
       },
       {
         "nom": "Vimscript",
-        "icon": "fas fa-file-code"
+        "icon": "pi pi-file-code"
       }
     ],
-    "icon": "fas fa-laptop-code"
+    "icon": "pi pi-desktop"
   },
   "DevOps": {
     "nom": "DevOps",
     "competences": [
       {
         "nom": "Docker",
-        "icon": "fab fa-docker"
+        "icon": "pi pi-box"
       },
       {
         "nom": "Kubernetes",
-        "icon": "fas fa-ship"
+        "icon": "pi pi-server"
       },
       {
         "nom": "Jenkins",
-        "icon": "fas fa-robot"
+        "icon": "pi pi-cog"
       },
       {
         "nom": "Git / GitHub / GitLab / Bitbucket",
-        "icon": "fab fa-git"
+        "icon": "pi pi-code"
       },
       {
         "nom": "Ansible",
-        "icon": "fas fa-toolbox"
+        "icon": "pi pi-wrench"
       },
       {
         "nom": "Terraform",
-        "icon": "fas fa-seedling"
+        "icon": "pi pi-cloud"
       },
       {
         "nom": "Github Actions",
-        "icon": "fab fa-github"
+        "icon": "pi pi-sync"
       },
       {
         "nom": "CI/CD",
-        "icon": "fas fa-code-branch"
+        "icon": "pi pi-refresh"
       },
       {
         "nom": "GitLab CI",
-        "icon": "fab fa-gitlab"
+        "icon": "pi pi-cog"
       },
       {
         "nom": "ArgoCD",
-        "icon": "fas fa-code"
+        "icon": "pi pi-sync"
       },
       {
         "nom": "Helm",
-        "icon": "fas fa-anchor"
+        "icon": "pi pi-chart-bar"
       },
       {
         "nom": "Amazon Web Service / AWS",
-        "icon": "fab fa-aws"
+        "icon": "pi pi-cloud"
       },
       {
         "nom": "Google Cloud Platform / GCP",
-        "icon": "fab fa-google"
+        "icon": "pi pi-cloud"
       }
     ],
-    "icon": "fas fa-server"
+    "icon": "pi pi-server"
   },
   "System": {
     "nom": "Systèmes",
     "competences": [
       {
         "nom": "Cloud (Amazon Web Service / AWS, Google Cloud / GCP, Azure ...)",
-        "icon": "fas fa-cloud"
+        "icon": "pi pi-cloud"
       },
       {
         "nom": "Windows",
-        "icon": "fab fa-windows"
+        "icon": "pi pi-desktop"
       },
       {
         "nom": "Unix / Linux",
-        "icon": "fas fa-linux"
+        "icon": "pi pi-desktop"
       },
       {
         "nom": "Mac",
-        "icon": "fab fa-apple"
+        "icon": "pi pi-apple"
       },
       {
         "nom": "LFS (Linux From Scratch)",
-        "icon": "fas fa-terminal"
+        "icon": "pi pi-terminal"
       },
       {
         "nom": "Protocol (HTTP, FTP, SMTP, DNS, DHCP, SSH, SSL, TLS, VPN ...)",
-        "icon": "fas fa-network-wired"
+        "icon": "pi pi-sitemap"
       }
     ],
-    "icon": "fas fa-cogs"
+    "icon": "pi pi-cog"
   },
   "Base de données": {
     "nom": "Base de données",
     "competences": [
       {
         "nom": "SQL (MySQL, PostgreSQL, Oracle, SQL Server ...)",
-        "icon": "fas fa-database"
+        "icon": "pi pi-database"
       },
       {
         "nom": "NoSQL (MongoDB, JSON, XML, YAML ...)",
-        "icon": "fas fa-database"
+        "icon": "pi pi-database"
       }
     ],
-    "icon": "fas fa-database"
+    "icon": "pi pi-database"
   },
   "Outils": {
     "nom": "Outils",
     "competences": [
       {
         "nom": "Nmap",
-        "icon": "fas fa-network-wired"
+        "icon": "pi pi-search"
       },
       {
         "nom": "Wireshark",
-        "icon": "fas fa-fish"
+        "icon": "pi pi-chart-line"
       },
       {
         "nom": "Metasploit",
-        "icon": "fas fa-user-secret"
+        "icon": "pi pi-shield"
       },
       {
         "nom": "Serveur Apache / Nginx",
-        "icon": "fas fa-server"
+        "icon": "pi pi-server"
       },
       {
         "nom": "Postman",
-        "icon": "fas fa-paper-plane"
+        "icon": "pi pi-send"
       },
       {
         "nom": "Wamp / Xamp / Mamp / LAMP",
-        "icon": "fas fa-server"
+        "icon": "pi pi-server"
       }
     ],
-    "icon": "fas fa-tools"
+    "icon": "pi pi-wrench"
   }
 }
