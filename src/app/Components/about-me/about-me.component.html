@@ -6,13 +6,11 @@
       <!-- Photo et informations principales -->
       <header class="profile-header">
         <div class="avatar-wrapper">
-          <p-avatar
+           <p-avatar
             styleClass="profile-avatar"
             [style]="{'width': '160px', 'height': '160px'}"
             shape="circle">
-            <ng-template pTemplate="image">
-              <img [src]="profileImage" alt="Paul Perigault" (error)="handleImageError($event)" />
-            </ng-template>
+            <img [src]="profileImage" alt="Paul Perigault" (error)="handleImageError($event)" />
           </p-avatar>
         </div>
         <h1 class="profile-name">Paul Perigault</h1>
