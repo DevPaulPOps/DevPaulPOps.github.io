@@ -7,11 +7,12 @@
       <header class="profile-header">
         <div class="avatar-wrapper">
           <p-avatar
-            [image]="profileImage"
             styleClass="profile-avatar"
             [style]="{'width': '160px', 'height': '160px'}"
-            shape="circle"
-            (onImageError)="handleImageError($event)" alt="Paul Perigault">
+            shape="circle">
+            <ng-template pTemplate="image">
+              <img [src]="profileImage" alt="Paul Perigault" (error)="handleImageError($event)" />
+            </ng-template>
           </p-avatar>
         </div>
         <h1 class="profile-name">Paul Perigault</h1>
