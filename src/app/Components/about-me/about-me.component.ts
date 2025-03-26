@@ -52,7 +52,7 @@ export class AboutMeComponent implements OnInit, OnDestroy {
   // Propriétés readonly
   profileImage = '/image/Photo.jpg';
   readonly cvUrl = 'https://raw.githubusercontent.com/DevPaulPOps/cv-latex/main/out/main.pdf';
-  readonly email = 'perigault.paul@gmail.com';
+  readonly email = 'contact@paulperigault.tech';
   readonly defaultAvatar = '/assets/default-avatar.png';
 
   // États du composant
