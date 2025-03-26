@@ -19,7 +19,7 @@ import {MessageService} from 'primeng/api';
 })
 export class FooterComponent {
   readonly currentYear = new Date().getFullYear();
-  readonly email = 'perigault.paul@gmail.com';
+  readonly email = 'contact@paulperigault.tech';
 
   socialLinks = [
     {
